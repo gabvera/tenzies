@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10%;
+  gap: 1rem;
+}
+
+button{
+  padding: 1rem 3rem;
+  font-size: 1rem;
+}
+
+.dice{
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  padding: 1rem 1.4rem;
+}
+
+.selected{
+  background-color: green;
+}
+
+.container-inner{
+  display: flex;
+  gap: 1rem;
+}
